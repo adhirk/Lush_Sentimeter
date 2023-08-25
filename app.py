@@ -24,7 +24,7 @@ st.title("Senti-meter")
 # Text input
 # user_input = st.text_area("### User review will be passed to this field")
 # Text input
-st.markdown("<h5>User review will be passed to the ML model to predict <span style='color:green;'>positive</span> / <span style='color:red;'>negative</span></h5>", unsafe_allow_html=True)
+st.markdown("<h4>User review will be passed to the ML model to predict <span style='color:green;'>positive</span> / <span style='color:red;'>negative</span></h4>", unsafe_allow_html=True)
 user_input = st.text_area("")
 
 if st.button("Predict"):
